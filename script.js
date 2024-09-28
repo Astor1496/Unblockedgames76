@@ -31,7 +31,7 @@ function openGame(url) {
 
 // Game-specific functions
 function vlol() {
-  openGame("https://1v1.lol/");
+  openGame("https://games-site.github.io/projects/1v1.lol/index.html");
 }
 
 function superMario64() {
