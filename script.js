@@ -97,3 +97,7 @@ https://games-site.github.io/projects/wbwwb/index.html
 function wbwwb() {
   openGame("https://games-site.github.io/projects/wbwwb/index.html");
 }
+
+function worldguesser() {
+  openGame("https://www.worldguessr.com/");
+}
