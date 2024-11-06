@@ -48,7 +48,7 @@ header {
   transform: scale(1.05); /* Scale up slightly on hover */
 }
 
-#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser {
+#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame {
   background-size: cover; /* Ensure the image covers the container */
   background-position: center; /* Center the image in the container */
   background-repeat: no-repeat;
@@ -131,6 +131,10 @@ header {
 
 #worldguesser {
   background-image: url('images/worldguesser.jpeg');
+}
+
+#tilegame {
+  background-image: url('images/2048.png');
 }
 
 .play-icon {
