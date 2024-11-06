@@ -101,3 +101,7 @@ function wbwwb() {
 function worldguesser() {
   openGame("https://www.worldguessr.com/");
 }
+
+function tilegame() {
+  openGame("https://ovolve.github.io/2048-AI/");
+}
