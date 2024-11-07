@@ -105,3 +105,7 @@ function worldguesser() {
 function tilegame() {
   openGame("https://ovolve.github.io/2048-AI/");
 }
+
+function basketStars() {
+  openGame("https://ug17.github.io/play/Basketball-Stars/");
+}
