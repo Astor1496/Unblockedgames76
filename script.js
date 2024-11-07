@@ -109,3 +109,7 @@ function tilegame() {
 function basketStars() {
   openGame("https://ug17.github.io/play/Basketball-Stars/");
 }
+
+function rtroBowl() {
+  openGame("https://ug17.github.io/play/Retro-Bowl/");
+}

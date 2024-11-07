@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+#home-icon {
+  border-radius: 50%;
+}
+
 body {
   background: #1a1a1a;
   margin: 0;
@@ -11,7 +15,7 @@ body {
 }
 
 header {
-  background: linear-gradient(grey, white);
+  background: linear-gradient(white);
   text-align: center;
   align-items: center;
   height: 50px;
@@ -48,7 +52,7 @@ header {
   transform: scale(1.05); /* Scale up slightly on hover */
 }
 
-#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars {
+#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl {
   background-size: cover; /* Ensure the image covers the container */
   background-position: center; /* Center the image in the container */
   background-repeat: no-repeat;
@@ -139,6 +143,10 @@ header {
 
 #basketstars {
   background-image: url('images/basketstars.png');
+}
+
+#rtrobowl {
+  background-image: url('images/retrobowl.png');
 }
 
 .play-icon {
