@@ -113,3 +113,7 @@ function basketStars() {
 function rtroBowl() {
   openGame("https://ug17.github.io/play/Retro-Bowl/");
 }
+
+function snowRider() {
+  openGame("https://drippy-cat.github.io/snowrider3D/");
+}
