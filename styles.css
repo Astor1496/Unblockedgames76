@@ -7,6 +7,9 @@
 #home-icon {
   border-radius: 50%;
   margin-top: 1vh;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 body {
@@ -16,11 +19,15 @@ body {
 }
 
 header {
-  background: linear-gradient(white);
-  text-align: center;
-  align-items: center;
-  height: 50px;
+  position: sticky;
+  top: 0;
+  padding: 5px 10px;
+  color: #f1f1f1;
+  z-index: 1000;
+  background: transparent;
+  backdrop-filter: blur(8px); /* Adds a blur effect to the background */
 }
+
 
 #home-icon {
   height: 50px;
@@ -53,7 +60,7 @@ header {
   transform: scale(1.05); /* Scale up slightly on hover */
 }
 
-#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm {
+#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm, #littlealchemy, #madalinstuntcars2, #fnaf2, #madalinstuntcars3 {
   background-size: cover; /* Ensure the image covers the container */
   background-position: center; /* Center the image in the container */
   background-repeat: no-repeat;
@@ -164,6 +171,22 @@ header {
 
 #motoxm {
   background-image: url(images/motox3m.png);
+}
+
+#littlealchemy {
+  background-image: url(images/littlealchemy.png);
+}
+
+#madalinstuntcars2 {
+  background-image: url(images/madalinstuntcars2.png);
+}
+
+#madalinstuntcars3 {
+  background-image: url(images/madalinstuntcars3.png);
+}
+
+#fnaf2 {
+  background-image: url(images/fnaf2.png);
 }
 
 .play-icon {

@@ -103,7 +103,7 @@ function worldguesser() {
 }
 
 function tilegame() {
-  openGame("https://ovolve.github.io/2048-AI/");
+  openGame("https://games-site.github.io/projects/2048/index.html");
 }
 
 function basketStars() {
@@ -128,4 +128,20 @@ function amongUs() {
 
 function motoxm() {
   openGame("https://games-site.github.io/projects/moto-x3m/index.html");
+}
+
+function littlealchemy() {
+  openGame("https://games-site.github.io/projects/little-alchemy/index.html");
+}
+
+function madalinstuntcars2() {
+  openGame("https://games-site.github.io/projects/madalin-stunt-cars-2/index.html");
+}
+
+function fnaf2() {
+  openGame("https://games-site.github.io/projects/fnaf-2/index.html");
+}
+
+function madalinstuntcars3() {
+  openGame("https://games-site.github.io/projects/madalin-stunt-cars-3/index.html");
 }
