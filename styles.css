@@ -53,7 +53,7 @@ header {
   transform: scale(1.05); /* Scale up slightly on hover */
 }
 
-#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider {
+#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm {
   background-size: cover; /* Ensure the image covers the container */
   background-position: center; /* Center the image in the container */
   background-repeat: no-repeat;
@@ -152,6 +152,18 @@ header {
 
 #snowrider {
   background-image: url(images/snowrider.png);
+}
+
+#maskedforces {
+  background-image: url(images/maskedforces.png);
+}
+
+#amongus {
+  background-image: url(images/amongus.png);
+}
+
+#motoxm {
+  background-image: url(images/motox3m.png);
 }
 
 .play-icon {

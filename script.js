@@ -117,3 +117,15 @@ function rtroBowl() {
 function snowRider() {
   openGame("https://drippy-cat.github.io/snowrider3D/");
 }
+
+function maskedForces() {
+  openGame("https://maskedforcesunlimited.github.io/");
+}
+
+function amongUs() {
+  openGame("https://games-site.github.io/projects/among-us/index.html");
+}
+
+function motoxm() {
+  openGame("https://games-site.github.io/projects/moto-x3m/index.html");
+}
