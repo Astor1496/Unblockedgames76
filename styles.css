@@ -60,7 +60,7 @@ header {
   transform: scale(1.05); /* Scale up slightly on hover */
 }
 
-#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm, #littlealchemy, #madalinstuntcars2, #fnaf2, #madalinstuntcars3 {
+#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm, #littlealchemy, #madalinstuntcars2, #fnaf2, #madalinstuntcars3, #ocarinaoftime, #gtaadvance, #pokemonfirered {
   background-size: cover; /* Ensure the image covers the container */
   background-position: center; /* Center the image in the container */
   background-repeat: no-repeat;
@@ -187,6 +187,18 @@ header {
 
 #fnaf2 {
   background-image: url(images/fnaf2.png);
+}
+
+#ocarinaoftime {
+  background-image: url(images/ocarinaoftime.png);
+}
+
+#gtaadvance {
+  background-image: url(images/gtaadvance.png);
+}
+
+#pokemonfirered {
+  background-image: url(images/pokemonfirered.png);
 }
 
 .play-icon {

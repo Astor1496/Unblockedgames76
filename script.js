@@ -145,3 +145,15 @@ function fnaf2() {
 function madalinstuntcars3() {
   openGame("https://games-site.github.io/projects/madalin-stunt-cars-3/index.html");
 }
+
+function ocarinaoftime() {
+  openGame("https://games-site.github.io/emulation/N64/ocarina-of-time/index.html");
+}
+
+function gtaadvance() {
+  openGame("https://games-site.github.io/emulation/GBA/gta-advance/index.html");
+}
+
+function pokemonfirered() {
+  openGame("https://games-site.github.io/emulation/GBA/pokemon-fire-red/index.html");
+}
