@@ -1,3 +1,17 @@
+function doPost(e) {
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var data = JSON.parse(e.postData.contents);
+  var input = data.input;
+  
+  // Append the input data to the sheet
+  sheet.appendRow([input]);
+
+  return ContentService.createTextOutput(
+    JSON.stringify({ result: "success" })
+  ).setMimeType(ContentService.MimeType.JSON);
+}
+
+
 function openGame(url) {
   // Open a new tab
   var win = window.open();
