@@ -144,6 +144,22 @@ function motoxm() {
   openGame("https://games-site.github.io/projects/moto-x3m/index.html");
 }
 
+function motoxm2() {
+  openGame("https://games-site.github.io/projects/moto-x3m-2/index.html");
+}
+
+function motoxmwinter() {
+  openGame("https://games-site.github.io/projects/moto-x3m-winter/index.html");
+}
+
+function motoxmpoolparty() {
+  openGame("https://games-site.github.io/projects/moto-x3m-pool-party/index.html");
+}
+
+function motoxmspookyland() {
+  openGame("https://games-site.github.io/projects/moto-x3m-spooky-land/index.html");
+}
+
 function littlealchemy() {
   openGame("https://games-site.github.io/projects/little-alchemy/index.html");
 }
