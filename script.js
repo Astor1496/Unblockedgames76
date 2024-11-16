@@ -200,3 +200,7 @@ function gtaadvance() {
 function pokemonfirered() {
   openGame("https://games-site.github.io/emulation/GBA/pokemon-fire-red/index.html");
 }
+
+function learntofly() {
+  openGame("https://stickman-unblocked.lol/lessons/lesson-110/");
+}

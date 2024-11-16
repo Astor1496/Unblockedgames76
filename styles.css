@@ -103,7 +103,7 @@ header {
   transform: scale(1.05); /* Scale up slightly on hover */
 }
 
-#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm, #motoxm2, #motoxmwinter, #motoxmpoolparty, #motoxmspookyland, #littlealchemy, #madalinstuntcars2, #fnaf2, #madalinstuntcars3, #ocarinaoftime, #gtaadvance, #pokemonfirered, #drive-mad, #vex3, #vex4, #vex5, #vex6, #vex7 {
+#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm, #motoxm2, #motoxmwinter, #motoxmpoolparty, #motoxmspookyland, #littlealchemy, #madalinstuntcars2, #fnaf2, #madalinstuntcars3, #ocarinaoftime, #gtaadvance, #pokemonfirered {
   background-size: cover; /* Ensure the image covers the container */
   background-position: center; /* Center the image in the container */
   background-repeat: no-repeat;
@@ -258,30 +258,6 @@ header {
 
 #pokemonfirered {
   background-image: url(images/pokemonfirered.png);
-}
-
-#drive-mad {
-  background-image: url(images/drive-mad.jpg);
-}
-
-#vex3 {
-  background-image: url(images/vex3.png);
-}
-
-#vex4 {
-  background-image: url(images/vex4.png);
-}
-
-#vex5 {
-  background-image: url(images/vex5.png);
-}
-
-#vex6 {
-  background-image: url(images/vex6.png);
-}
-
-#vex7 {
-  background-image: url(images/vex7.png);
 }
 
 .play-icon {
