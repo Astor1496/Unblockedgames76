@@ -204,3 +204,7 @@ function pokemonfirered() {
 function learntofly() {
   openGame("https://stickman-unblocked.lol/lessons/lesson-110/");
 }
+
+function eaglercraft() {
+  openGame("https://svaaps.github.io/eaglercrafthtml/");
+}

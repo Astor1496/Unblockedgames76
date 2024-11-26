@@ -103,7 +103,7 @@ header {
   transform: scale(1.05); /* Scale up slightly on hover */
 }
 
-#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm, #motoxm2, #motoxmwinter, #motoxmpoolparty, #motoxmspookyland, #littlealchemy, #madalinstuntcars2, #fnaf2, #madalinstuntcars3, #ocarinaoftime, #gtaadvance, #pokemonfirered, #vex3, #vex4, #vex5, #vex6, #vex7, #drive-mad, #bob-the-robber-2, #emulatorjs, #supersmashbros {
+#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm, #motoxm2, #motoxmwinter, #motoxmpoolparty, #motoxmspookyland, #littlealchemy, #madalinstuntcars2, #fnaf2, #madalinstuntcars3, #ocarinaoftime, #gtaadvance, #pokemonfirered, #vex3, #vex4, #vex5, #vex6, #vex7, #drive-mad, #bob-the-robber-2, #emulatorjs, #supersmashbros, #eaglercraft {
   background-size: cover; /* Ensure the image covers the container */
   background-position: center; /* Center the image in the container */
   background-repeat: no-repeat;
@@ -294,6 +294,10 @@ header {
 
 #supersmashbros {
   background-image: url(/images/supersmashbros.jpg);
+}
+
+#eaglercraft {
+  background-image: url(/images/minecraft.jpg);
 }
 
 .play-icon {
