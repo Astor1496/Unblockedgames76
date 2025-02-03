@@ -104,7 +104,7 @@ header {
   transform: scale(1.05); /* Scale up slightly on hover */
 }
 
-#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm, #motoxm2, #motoxmwinter, #motoxmpoolparty, #motoxmspookyland, #littlealchemy, #madalinstuntcars2, #fnaf2, #madalinstuntcars3, #ocarinaoftime, #gtaadvance, #pokemonfirered, #vex3, #vex4, #vex5, #vex6, #vex7, #drive-mad, #bob-the-robber-2, #emulatorjs, #sudoku, #magma {
+#vlol, #superMario64, #superMarioBros, #subwaySurfers, #stack, #stickmanHook, #dogeMiner, #flappyBird, #crossyRoad, #geometryDash, #slope, #bitLife, #dinoGame, #doodleJump, #driftBoss, #wbwwb, #doom, #worldguesser, #tilegame, #basketstars, #rtrobowl, #snowrider, #maskedforces, #amongus, #motoxm, #motoxm2, #motoxmwinter, #motoxmpoolparty, #motoxmspookyland, #littlealchemy, #madalinstuntcars2, #fnaf2, #madalinstuntcars3, #ocarinaoftime, #gtaadvance, #pokemonfirered, #vex3, #vex4, #vex5, #vex6, #vex7, #drive-mad, #bob-the-robber-2, #emulatorjs, #sudoku, #minecraft {
   background-size: cover; /* Ensure the image covers the container */
   background-position: center; /* Center the image in the container */
   background-repeat: no-repeat;
@@ -293,8 +293,8 @@ header {
   background-image: url(images/sudoku.jpg);
 }
 
-#magma {
-  background-image: url(images/magma.jpg);
+#minecraft {
+  background-image: url(images/minecraft.jpeg);
 }
 
 .play-icon {
@@ -310,4 +310,34 @@ header {
 
 .game:hover .play-icon {
   opacity: 1; /* Make the play icon visible when hovering over the game */
+}
+
+#loading-spinner {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#loading-spinner::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+body.loading #game-container {
+  display: none;
 }

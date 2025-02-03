@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', () => {
+  document.body.classList.add('loading');
+});
+
+window.addEventListener('load', () => {
+  document.body.classList.remove('loading');
+  document.getElementById('loading-spinner').style.display = 'none';
+});
+
+
 function doPost(e) {
   var sheet = SpreadsheetApp.getActiveSheet();
   var data = JSON.parse(e.postData.contents);
@@ -113,13 +123,9 @@ function doodleJump() {
   openGame("https://games-site.github.io/projects/doodle-jump/index.html");
 }
 
-https://games-site.github.io/projects/drift-boss/index.html
-
 function driftBoss() {
   openGame("https://games-site.github.io/projects/drift-boss/index.html");
 }
-
-https://games-site.github.io/projects/wbwwb/index.html
 
 function wbwwb() {
   openGame("https://games-site.github.io/projects/wbwwb/index.html");
@@ -209,6 +215,6 @@ function sudoku() {
   openGame("https://1000hz.github.io/sudoku/")
 }
 
-function magma() {
-  window.open("https://students.matteappen.se/exercises/available", '_blank');
+function minecraft() {
+  window.open("https://eaglercraft-.glitch.me/", '_blank');
 }
