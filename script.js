@@ -216,5 +216,5 @@ function sudoku() {
 }
 
 function minecraft() {
-  window.open("https://eaglercraft-.glitch.me/", '_blank');
+  window.open("https://svaaps.github.io/eaglercrafthtml/");
 }
