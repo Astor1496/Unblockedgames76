@@ -214,7 +214,3 @@ function learntofly() {
 function sudoku() {
   openGame("https://1000hz.github.io/sudoku/")
 }
-
-function minecraft() {
-  window.open("https://eaglercraft-.glitch.me/");
-}
